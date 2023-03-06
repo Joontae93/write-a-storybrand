@@ -1,0 +1,129 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+	body {
+		font-size: 1.6rem;
+		h1,
+		h2,
+		figure {
+			text-align: center;
+		}
+	}
+}
+
+header {
+	padding: 2rem;
+	border-bottom: 3px solid lightblue;
+	h1 {
+		font-size: 3rem;
+	}
+}
+section {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 6.5rem 2rem;
+	&:nth-child(odd) {
+		background-color: lightblue;
+	}
+	h2 {
+		align-self: center;
+	}
+	label,
+	input,
+	textarea {
+		display: block;
+	}
+	label {
+		margin-top: 4rem;
+	}
+	textarea {
+		width: 100%;
+	}
+}
+button {
+	padding: 2rem;
+	font-size: 1.2em;
+	display: block;
+	margin: 4rem auto;
+}
+footer {
+	background-color: lightblue;
+	text-align: center;
+	padding: 6.5rem 0;
+	cursor: pointer;
+}
+.container {
+	width: 88%;
+	margin: 0 auto;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.pathway {
+	position: sticky;
+	top: 0;
+	background-color: white;
+	ul {
+		display: inline-flex;
+		width: 100%;
+		justify-content: space-evenly;
+		list-style: none;
+		li {
+			padding: 1rem;
+			background-color: lightblue;
+		}
+	}
+	&__connector {
+		border-top: 2px dashed grey;
+		transform: translateY(20px);
+	}
+}
+
+.hero {
+	.problem__container {
+		.problem__external {
+		}
+		.problem__internal {
+		}
+		.problem__philospohical {
+		}
+		label {
+		}
+		label {
+			br {
+			}
+		}
+	}
+}
+.guide {
+	&__empathy {
+		label {
+		}
+	}
+	&__authority {
+		label {
+		}
+	}
+	&__plan {
+		label {
+		}
+	}
+}
+.results {
+	&__success {
+		label {
+		}
+	}
+	&__failure {
+		label {
+		}
+	}
+}

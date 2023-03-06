@@ -15,28 +15,85 @@
         <header>
             <h1>Let's write a storybrand!</h1>
         </header>
+        <section class="pathway">
+            <div class="pathway__connector"></div>
+            <ul>
+                <li>hero</li>
+                <li>problem</li>
+                <ul>
+                    <li>external problem</li>
+                    <li>internal problem</li>
+                    <li>philosophical problem</li>
+                </ul>
+                <li>guide</li>
+                <ul>
+                    <li>empathy</li>
+                    <li>authority</li>
+                </ul>
+                <li>plan</li>
+                <li>CTA</li>
+                <li>success</li>
+                <li>failure</li>
+            </ul>
+        </section>
         <section class="hero">
-            <h2>Describe the Hero</h2>
-            <label for="hero-name">What's their name?</label>
-            <input type="text" name="hero-name" id="hero-name">
-            <div class="problem__container">
-
-                <div class="problem__external">
-                    <label for="external-problem">Describe the problem they face</label>
-                    <input type="text" name="external-problem" id="external-problem">
-                </div>
-                <div class="problem__internal">
-                    <label for="internal-problem">Let's dig a little deeper. When [hero] thinks about their problem, how do they feel?</label>
-                    <textarea name="internal-problem" id="internal-problem" cols="30" rows="10"></textarea>
-                </div>
-                <div class="problem__philospohical">
-                    <label for="internal-problem">Let's dig <em>even</em> deeper. What's the philosphical issue at the core of this problem? <br><em>Hint: philosophical issues often start
-                            with
-                            &ldquo;should&rdquo; or &ldquo;ought&rdquo;</em></label>
-                    <textarea name="internal-problem" id="internal-problem" cols="30" rows="10"></textarea>
+            <div class="container">
+                <h2>Describe the Hero</h2>
+                <label for="hero-name">What's their name?</label>
+                <input type="text" name="hero-name" id="hero-name">
+                <div class="problem__container">
+                    <div class="problem__external">
+                        <label for="external-problem">Describe the problem they face</label>
+                        <input type="text" name="external-problem" id="external-problem">
+                    </div>
+                    <div class="problem__internal">
+                        <label for="internal-problem">Let's dig a little deeper. When [hero] thinks about their problem, how do they feel?</label>
+                        <textarea name="internal-problem" id="internal-problem" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="problem__philospohical">
+                        <label for="internal-problem">Let's dig <em>even</em> deeper. What's the philosphical issue at the core of this problem? <br><em>Hint: philosophical issues often
+                                start
+                                with
+                                &ldquo;should&rdquo; or &ldquo;ought&rdquo;</em></label>
+                        <textarea name="internal-problem" id="internal-problem" cols="30" rows="10"></textarea>
+                    </div>
                 </div>
             </div>
         </section>
+        <section class="guide">
+            <div class="container">
+                <h2>Let's talk about the Guide</h2>
+                <label for="guide-name">What's the guide's name?</label>
+                <input type="text" name="guide-name" id="guide-name">
+                <div class="guide__empathy">
+                    <label for="empathy">Describe how [guide]'s values create empathy for [hero]'s problems.</label>
+                    <textarea name="empathy" id="empathy" cols="30" rows="10"></textarea>
+                </div>
+                <div class="guide__authority">
+                    <label for="authority">Describe [guide]'s experience that demonstrates authority.</label>
+                    <textarea name="authority" id="authority" cols="30" rows="10"></textarea>
+                </div>
+                <div class="guide__plan">
+                    <label for="plan">Bullet point the plan</label>
+                    <textarea name="plan" id="plan" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+        </section>
+        <section class="results">
+            <div class="container">
+                <h2>Almost there&mdash;how does this story end?</h2>
+                <div class="results__success">
+                    <label for="success">If this story ends in success, how does it end?</label>
+                    <textarea name="success" id="success" cols="30" rows="10"></textarea>
+                </div>
+                <div class="results__failure">
+                    <label for="failure">What's at risk if we fail? (Or, what are we avoiding when we succeed?)</label>
+                    <textarea name="failure" id="failure" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+        </section>
+        <button>Print</button>
+        <footer>Made with ❤️ by KJ Roelke</footer>
     </main>
 </body>
 

@@ -1,3 +1,99 @@
+*, :before, :after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+html {
+  font-size: 62.5%;
+}
+
+html body {
+  font-size: 1.6rem;
+}
+
+html body h1, html body h2, html body figure {
+  text-align: center;
+}
+
+header {
+  border-bottom: 3px solid #add8e6;
+  padding: 2rem;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+section {
+  flex-flow: column wrap;
+  padding: 6.5rem 2rem;
+  display: flex;
+}
+
+section:nth-child(2n+1) {
+  background-color: #add8e6;
+}
+
+section h2 {
+  align-self: center;
+}
+
+section label, section input, section textarea {
+  display: block;
+}
+
+section label {
+  margin-top: 4rem;
+}
+
+section textarea {
+  width: 100%;
+}
+
+button {
+  margin: 4rem auto;
+  padding: 2rem;
+  font-size: 1.2em;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  cursor: pointer;
+  background-color: #add8e6;
+  padding: 6.5rem 0;
+}
+
+.container {
+  width: 88%;
+  max-width: 1200px;
+  flex-flow: column wrap;
+  margin: 0 auto;
+  display: flex;
+}
+
+.pathway {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+.pathway ul {
+  width: 100%;
+  justify-content: space-evenly;
+  list-style: none;
+  display: inline-flex;
+}
+
+.pathway ul li {
+  background-color: #add8e6;
+  padding: 1rem;
+}
+
+.pathway__connector {
+  border-top: 2px dashed gray;
+  transform: translateY(20px);
+}
 
 /*# sourceMappingURL=index.971c2ea4.css.map */
